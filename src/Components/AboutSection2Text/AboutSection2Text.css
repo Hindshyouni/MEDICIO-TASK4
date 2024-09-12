@@ -1,0 +1,16 @@
+.under::after{
+    content: "";
+    position: absolute;
+    
+    left: 0;
+    width: 70px;
+    height: 7px;
+    background-color: var(--primary-color);
+
+}
+.icon-size{
+    font-size: 70px;
+}
+.text-color{
+    color: #100e0ec3;
+}

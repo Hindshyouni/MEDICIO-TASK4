@@ -1,0 +1,12 @@
+.border-bottomm {
+    position: relative;
+}
+
+.border-bottomm div::after {
+    content: '';
+    position: absolute;
+    left: 48%;
+    width: 60px;
+    height: 2px;
+    background-color: #53a8ff;
+}
