@@ -2,7 +2,7 @@
   "name": "medico",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Hindshyouni.github.io/VILLA-Task3/",
+  "homepage": "https://Hindshyouni.github.io/MEDICIO-TASK4/",
   "type": "module",
   "scripts": {
     "dev": "vite",
