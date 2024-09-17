@@ -17,12 +17,17 @@ import Pricing from './Components/Pricing/Pricing';
 import Section2 from './Components/Section2/Section2';
 import Services from './Components/Services/Services';
 import Text from './Components/Text/Text';
+import carosel11 from '../src/assets/hero-carousel/hero-carousel-1.jpg'
+import carosel12 from '../src/assets/hero-carousel/hero-carousel-2.jpg'
+import carosel13 from '../src/assets/hero-carousel/hero-carousel-3.jpg'
+import img1 from '../src/assets/new/logo.png'
+
 
 
 
 function App() {
   const logo = {
-    img1: '/src/assets/new/logo.png'
+    img1: img1,
   };
 
   const items = [
@@ -44,9 +49,9 @@ function App() {
     { id: 'contact', name: 'CONTACT' }
   ];
   const photoData = {
-    carosel1: "/src/assets/hero-carousel/hero-carousel-1.jpg",
-    carosel2: "/src/assets/hero-carousel/hero-carousel-2.jpg",
-    carosel3: "/src/assets/hero-carousel/hero-carousel-3.jpg"
+    carosel11: carosel11,
+    carosel12: carosel12,
+    carosel13: carosel13
   };
   const text ="Nulla vitae elit libero, a pharetra augue mollis interdum Nulla vitae elit libero, a pharetra augue mollis interdum a vitae elit libero, a pharetra augue mollis interdum a vitae elit libero, a pharetra augue mollis interdum."
   
